@@ -1,0 +1,68 @@
+- J'ai une idée de mon produit dans les grandes lignes
+- Je décris mon produit et son but (pourquoi je bosse tous les jours là-dessus ?)
+	- Cette vision est partagée par toute l'équipe
+	- Toutes les décisions sont prises en accord avec cette vision
+
+- Je décris les grandes fonctionnalités dans des EPICS (ateliers)
+	- Peut-être une seule (c'est même bien pour commencer)
+- Je découpe mon EPIC pour en créer des User Stories
+	- l'équipe va travailler l'EPIC (et seulement sur une seule)
+
+- Je présente mes US à l'équipe (backlog refinement). Pour chaque US :
+	- Je la présente à l'équipe de dev
+	- On l'affine ensemble
+	- On la découpe si besoin après retour de l'équipe
+	(- On la chiffre, ou pas, à décider)
+	- Chaque développeur a bien compris le besoin exact du persona 
+		- il a bien identifié l'utilisateur concerné
+		- afin de pouvoir se mettre à sa place
+		- afin de d'imaginer au mieux les cas "tordus"
+		- Il y a plus d'idées dans plusieurs têtes que dans une seule
+		- afin de savoir démontrer sa fonctionalité (et non juste la réalisation technique)
+	- L'US doit :
+		- être assez petite pour éviter les effets tunnels (on arrive le plus vite possible à un état stable) => petits incréments
+		- tenir dans un sprint
+		- être assez détaillée
+			- Titre
+			- Definition of Done
+				- Tests
+				- Dev
+				- Documentation
+				- Revue de Code
+				- ...
+			- Critères d'acceptation
+				- Permettent de vérifier que le truc fonctionne
+				- En me connectant sur ... Je suis capable de ...
+				- En cliquant sur ... Je vois ...
+
+- Je constitue mon sprint avec l'équipe (démarrage de sprint)
+	- On définit le sprint goal
+		- Que veut-on démontrer en fin de sprint ?
+	- On pioche les US prêtes (déjà analysées) dans le backlog en fonction de la priorité
+
+- Les développeurs prennent les US et commencent à travailler dessus
+	- Discussions d'implémentation à plusieurs (pour être sûr de partir dans le bon sens)
+	- Une US à la fois en "doing"
+		- Une PR en cours, c'est toujours une US en "doing" (faire du lobbying)
+		- Ne pas lâcher ses PR en cours (ne pas se déresponsabiliser)
+
+- Régulièrement (chaque jour), on analyse notre avancement en vue de la réalisation du Sprint Goal
+	- Daily meetings
+		- Outil de l'équipe pour réussir à tenir ses engagements
+			- Suis-bloqué ?
+			- Est-ce qu'il faut redécouper un ticket ?
+			- Comment on s'organise pour atteindre nos objectifs ?
+		- Devant le board
+		- Avec les intéressés seulement
+		- animé par l'équipe (rôle tournant ?)
+		- On parle en priorité des cartes à droite (doing)
+		- But : réussir à tenir ses engagements et non "se justifier du travail d'hier"
+
+
+
+
+
+
+- TODO : conception technique à placer qq part dans le process
+- Avoir un client (un vrai) et un besoin 
+
